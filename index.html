@@ -32,6 +32,8 @@
   ul { padding-left: 1.25rem; }
   li { margin-bottom: 6px; }
   a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; overflow-wrap: anywhere; }
+  .video { position: relative; aspect-ratio: 16 / 9; margin: 0 0 8px; border-radius: 10px; overflow: hidden; background: #000; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   footer { color: var(--muted); font-size: 0.9rem; margin-top: 28px; border-top: 1px solid var(--rule); padding-top: 14px; }
 </style>
 </head>
@@ -40,6 +42,10 @@
   <div class="card">
     <h1>Carrom Crest</h1>
     <p class="tag">A physics-driven carrom board game for Android.</p>
+
+    <div class="video">
+      <iframe src="https://www.youtube-nocookie.com/embed/yyYMOQc8jOg" title="Carrom Crest | Official Trailer | Suwexa Gaming" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+    </div>
 
     <h2>Get the game</h2>
     <p><a href="https://play.google.com/store/apps/details?id=dev.carromcrest.game">Carrom Crest on Google Play</a></p>
